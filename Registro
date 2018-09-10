@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+<form>
+<h3>REGISTRAR:</h3>
+
+<table>
+<tr><!--Fila-->
+<td><label for="nombre">Alumno:</lable></td><!--Columna-->
+<td><input type="text" placeholder="Nombre" name="nombre" id="nombre"></td><!--Columna-->
+</tr>
+<tr>
+<td><label for="apellido">Apellidos:</lable></td>
+<td><input type="text" placeholder="Apellido Paterno" name="nombre" id="apellido"></td>
+<td><input type="text" placeholder="Apellido Materno" name="nombre" id="apellido"></td>
+</tr>
+<tr>
+<td><label for="codigo">Código de Alumno:</lable></td>
+<td><input type="text" placeholder="u000000000" maxlength="10" name="codigo" id="codigo"></td>
+</tr>
+<tr>
+<td><label for="carrera">Carrera:</lable></td>
+<td><input type="text" placeholder="carrera" name="carrera" id="carrera"></td>
+</tr>
+<tr>
+<td><label for="ciclo">Ciclo Actual:</lable></td>
+<td><input type="text" placeholder="ciclo" maxlength="1" name="ciclo" id="ciclo"></td>
+</tr>
+<tr>
+<td><label for="correo">Correo:</lable></td>
+<td><input type="text" placeholder="correo" name="correo" id="correo"></td>
+</tr>
+<tr>
+<td><label for="contraseña">Contraseña:</lable></td>
+<td><input type="password" placeholder="9 caracteres"  maxlength="9" name="contraseña" id="contraseña"></td>
+</tr>
+<tr>
+<td><label for="contraseña2">Confirmar Contraseña:</lable></td>
+<td><input type="password" placeholder="9 caracteres"  maxlength="9" name="contraseña2" id="contraseña2"></td>
+</tr>
+</table>
+
+<input type="submit">
+</form>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# Project_XD
+# StudyApp
 Red social de preguntas académicas
